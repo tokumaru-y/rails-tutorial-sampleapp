@@ -1,14 +1,13 @@
 # Ruby on Rails チュートリアルのサンプルアプリケーション
 
-これは、次の教材で作られたサンプルアプリケーションです。
-[_Ruby on Rails チュートリアル_](https://railstutorial.jp/)
-（第 7 版）
-[Michael Hartl](https://www.michaelhartl.com/) 著
+これは、次の教材で作られたサンプルアプリケーションです。   
+[*Ruby on Rails チュートリアル: 実例を使って Rails を学ぼう*](http://railstutorial.jp/)
+[Michael Hartl](http://www.michaelhartl.com/) 著
 
 ## ライセンス
 
-[Ruby on Rails チュートリアル](https://railstutorial.jp/)内にある
-ソースコードは MIT ライセンスと Beerware ライセンスのもとで公開されています。
+[Ruby on Rails チュートリアル](http://railstutorial.jp/)内にあるすべてのソースコードは
+MIT ライセンスと Beerware ライセンスのもとに公開されています。
 詳細は [LICENSE.md](LICENSE.md) をご覧ください。
 
 ## 使い方
@@ -17,9 +16,7 @@
 その後、次のコマンドで必要になる RubyGems をインストールします。
 
 ```
-$ gem install bundler -v 2.3.14
-$ bundle _2.3.14_ config set --local without 'production'
-$ bundle _2.3.14_ install
+$ bundle install --without production
 ```
 
 その後、データベースへのマイグレーションを実行します。
@@ -34,11 +31,10 @@ $ rails db:migrate
 $ rails test
 ```
 
-テストが無事にパスしたら、Rails サーバーを立ち上げる準備が整っているはずです。
+テストが無事に通ったら、Railsサーバーを立ち上げる準備が整っているはずです。
 
 ```
 $ rails server
 ```
 
-詳しくは、[_Ruby on Rails チュートリアル_](https://railstutorial.jp/)
-を参考にしてください。
+詳しくは、[*Ruby on Rails チュートリアル*](http://railstutorial.jp/)を参考にしてください。
